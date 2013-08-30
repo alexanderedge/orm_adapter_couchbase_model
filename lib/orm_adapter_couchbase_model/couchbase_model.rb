@@ -1,7 +1,7 @@
 require 'couchbase-model'
 
 module Couchbase
-  class Base
+  class Model
     extend OrmAdapter::ToAdapter
 
     class OrmAdapter < ::OrmAdapter::Base
